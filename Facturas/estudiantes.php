@@ -37,6 +37,7 @@ $imagenes = array_filter($imagenes, function ($item) {
 
 <body style="display: flex; justify-content: center; aling-items: center;">
 <div class="container bg-info bg-gradient">
+<img class="imagenPerfil d-flex text-center" src="/Categoria/images/julianV.jpg" height="300px" >
   <h1><a href="../Categoria/estudiantes.php?id=<?=$val['id']?>">Categoria</a></h1>
   <h1><a href="../Clientes/estudiantes.php?id=<?=$val['id']?>">Clientes</a></h1>
   <h1><a href="../Empleados/estudiantes.php?id=<?=$val['id']?>">Empleados</a></h1><h1><a href="../Facturas/estudiantes.php?id=<?=$val['id']?>">Facturas</a></h1>
